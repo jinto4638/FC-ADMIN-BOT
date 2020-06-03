@@ -1,7 +1,7 @@
 
 {
-  "name": "Marie-2.0 English",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "name": "FILM CORNER ADMIN BOT",
+  "description": "FILM CORNER group manager.",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/TGExplore/Marie-2.0-English",
+  "repository": "hhttps://github.com/jinto4638/FC-ADMIN-BOT",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -53,7 +53,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/Your_id_here"
+      "value": "https://t.me/JintoNS"
     },
     "PORT": {
       "description": "Port to use for your webhooks",

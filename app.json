@@ -2,6 +2,7 @@
 {
   "name": "FILM CORNER ADMIN BOT",
   "description": "FILM CORNER group manager.",
+   "logo": "https://telegra.ph/file/ad43cf0109de0342185b4.jpg.",
   "keywords": [
     "telegram",
     "best",
@@ -33,7 +34,7 @@
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": ""
+      "value": "https://<appname>.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -80,7 +81,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "9.5"
+        "version": "10"
       }
     }
   ]

@@ -39,18 +39,22 @@
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
       "value": "-1007777777777"
+      "required": false
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
       "value": "342136008"
+      "required": false
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
       "value": "342136008"
+      "required": false
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
       "value": "342136008"
+      "required": false
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
@@ -59,6 +63,7 @@
     "PORT": {
       "description": "Port to use for your webhooks",
       "value": "8443"
+      "required": false
     },
     "DEL_CMDS": {
       "description": "Whether to delete commands from users which don't have rights to use that command",
@@ -67,14 +72,17 @@
     "STRICT_GBAN": {
       "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
       "value": "True"
+      "required": false
     },
     "ALLOW_EXCL": {
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
       "value": "True"
+      "required": false
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
       "value": "CAADBAAD6AMAAkJ_EQNu_RjOszbmnxYE"
+      "required": false
     }
   },
   "addons": [
